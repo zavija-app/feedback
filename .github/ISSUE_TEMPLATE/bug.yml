@@ -1,0 +1,26 @@
+name: Bug
+description: Something doesn't work as it should
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: puzzle
+    attributes:
+      label: Puzzle ID (if it's about a puzzle)
+      description: The 8-character ID shown on the puzzle. A puzzle name or date works too.
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: e.g. iPhone 14, Safari
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional. Drag an image in here. Check that it shows no personal details.
