@@ -30,6 +30,7 @@ If someone already asked for what you want, press the 👍 under their post inst
 |---|---|
 | `idea` | a player asked for something new |
 | `bug` | something doesn't work as it should |
+| `considering` | we're thinking about it |
 | `in progress` | we're building it |
 | `shipped` | it's live on zavija.com |
 | `not planned` | we decided against it |
